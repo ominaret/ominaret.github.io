@@ -1,0 +1,26 @@
+# Site settings
+title: "Open Minaret"
+description: > 
+  one of the lights in the dark ocean of data
+
+author: Faruq Sandi
+email: sandi@cubicless.com
+twitter_username: netwavex
+github_username: faruqsandi
+
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "http://minaret.cubicless.com" # the base hostname & protocol for your site
+
+google_analytics_id: UA-1111111111-1
+disqus_id:
+
+# Build settings
+include: [_pages]
+markdown: kramdown
+permalink: /:year/:month/:title.html
+
+sass:
+    style: compressed
+
+exclude: [vendor]
+
